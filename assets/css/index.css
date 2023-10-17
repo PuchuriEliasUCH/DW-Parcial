@@ -1,0 +1,36 @@
+body{
+    background-color: #1e366d;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    > img{
+        width: 55%
+    }
+
+    > form{
+        padding: 1rem;
+        background-color: #26458c57;
+        width: 350px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;        
+        gap: 2rem;
+
+        > input{
+            width: 80%;
+        }
+
+        > a{
+            background-color: rgb(255, 255, 255);
+            padding: .5rem 2rem;
+        }
+        
+    }
+}
